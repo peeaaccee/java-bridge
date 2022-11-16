@@ -1,4 +1,6 @@
 package bridge;
+// 필드(인스턴스 변수)를 변경할 수 없다.
+// 메서드의 시그니처(인자, 이름)와 반환 타입은 변경할 수 없다.
 
 import java.util.List;
 
