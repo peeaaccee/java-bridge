@@ -2,9 +2,12 @@ package bridge;
 
 import java.util.List;
 
+import static bridge.BridgeRule.INITIAL_TRY_COUNT;
 import static bridge.GameCommand.QUIT;
 import static bridge.GameCommand.RETRY;
 import static bridge.GameStatus.*;
+import static bridge.Moving.LOWER_SIDE;
+import static bridge.Moving.UPPER_SIDE;
 
 /**
  * 다리 건너기 게임을 관리하는 클래스

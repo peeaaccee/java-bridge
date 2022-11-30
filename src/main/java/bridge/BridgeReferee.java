@@ -2,6 +2,8 @@ package bridge;
 
 import java.util.List;
 
+import static bridge.BridgeRule.INITIAL_LOCATION;
+import static bridge.BridgeRule.MOVING_DISTANCE;
 import static bridge.GameStatus.*;
 
 public class BridgeReferee {
